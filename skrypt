@@ -1,0 +1,18 @@
+
+#!bin/bash
+
+echo "# obwody3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hades13542/obwody3.git
+git push -u origin master
+
+#git add .  #dodaje wszystkie pliki z folderu
+#git commit -m "Komentarz"
+#git push #na serwer
+
+#w razie jakby trafil szlag
+
+#git clone https://github.com/hades13542/lab07.git
+#
